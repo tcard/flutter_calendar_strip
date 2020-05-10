@@ -60,21 +60,21 @@ class CalendarStripState extends State<CalendarStrip>
   DateTime today;
 
   List<String> monthLabels = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
+    "enero",
+    "febrero",
+    "marzo",
+    "abril",
+    "mayo",
+    "junio",
+    "julio",
+    "agosto",
+    "septiembre",
+    "octubre",
+    "noviembre",
+    "diciembre"
   ];
 
-  List<String> dayLabels = ["Mon", "Tue", "Wed", "Thr", "Fri", "Sat", "Sun"];
+  List<String> dayLabels = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"];
 
   CalendarStripState(
       DateTime selectedDate, DateTime startDate, DateTime endDate) {
