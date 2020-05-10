@@ -262,7 +262,7 @@ class CalendarStripState extends State<CalendarStrip>
       return InkWell(
         child: widget.rightIcon ??
             Icon(
-              CupertinoIcons.right_chevron,
+              Icons.arrow_forward,
               size: 30,
               color: nullOrDefault(widget.iconColor, Colors.black),
             ),
@@ -279,7 +279,7 @@ class CalendarStripState extends State<CalendarStrip>
       return InkWell(
         child: widget.leftIcon ??
             Icon(
-              CupertinoIcons.left_chevron,
+              Icons.arrow_back,
               size: 30,
               color: nullOrDefault(widget.iconColor, Colors.black),
             ),
